@@ -4,9 +4,13 @@ body{
 }
 section{
     height: 500px;
+    margin-bottom: 100px;
 }
 h1{
     font-size: 40px;
+}
+p{
+    color: dimgray;
 }
 .name-hilight{
     color: orange;
@@ -37,6 +41,23 @@ h1{
 }
 .top-section .link-button:hover{
     background:#FF3D89 ;
+    font-size: 19px;
+    padding: 13px 43px;
+}
+.midSection .mid-cotent{
+    margin-top:35px;
+}
+.midSection .link-btn2{
+    text-decoration: none;
+    background: linear-gradient(45deg, #52c68c, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    transition: all 0.5s ease;
+}
+.midSection .link-btn2:hover{
+    background:#C15F46;
     font-size: 19px;
     padding: 13px 43px;
 }
