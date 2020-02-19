@@ -4,16 +4,28 @@ body{
 }
 section{
     height: 500px;
-    margin-bottom: 100px;
+    padding-bottom: 150px;
 }
 h1{
     font-size: 40px;
+    margin:0;
+}
+h2{
+   font-size: 35px; 
 }
 p{
     color: dimgray;
+    text-align: justify;
 }
 .name-hilight{
     color: orange;
+    font-style: italic;
+}
+.span-h{
+    color: #FF438E;
+}
+.span-m{
+    color:#FB6A58;
 }
 .halh-width{
     width: 40%;
@@ -23,11 +35,11 @@ p{
 }
 .halh-width img{
     width: 100%;
-    margin-top: 35px;
 }
 .top-section{
     background-image: url(../img//top-banner.png);
     background-repeat: no-repeat;
+    margin-top: 80px;
    
 }
 .top-section .link-button{
@@ -44,10 +56,23 @@ p{
     font-size: 19px;
     padding: 13px 43px;
 }
-.midSection .mid-cotent{
-    margin-top:35px;
+
+.mid-section{
+    background: url(../img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
-.midSection .link-btn2{
+.mid-section .mid-cotent{
+   
+}
+.mid-section h2{
+    font-size: 35px;
+}
+
+.mid-section h3{
+    font-size:1.17em;;
+}
+.mid-section .link-btn2{
     text-decoration: none;
     background: linear-gradient(45deg, #52c68c, tomato);
     padding: 10px 40px;
@@ -56,8 +81,53 @@ p{
     font-weight: 700;
     transition: all 0.5s ease;
 }
-.midSection .link-btn2:hover{
+.mid-section .link-btn2:hover{
     background:#C15F46;
     font-size: 19px;
     padding: 13px 43px;
+}
+
+.experience-section{
+    background-image: url(../img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-section div{
+    box-shadow: 5px 7px 40px grey;
+    height: 80%;
+}
+.experience-section h1{
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.experience-section h2{
+    font-size: 35px;
+    text-align: center;
+    border-bottom: 2px solid rgb(240, 237, 237);;
+    width: 460px;
+    padding-bottom: 10px;
+}
+.experience-section h3{
+    color: orange;
+    text-align: center;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+.experience-section p{
+    margin: 20px;
+}
+
+footer {
+    display: block;
+}
+footer p {
+    text-align: center;
 }
