@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    height: 500px;
+}
+h1{
+    font-size: 40px;
+}
+.name-hilight{
+    color: orange;
+}
+.halh-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.halh-width img{
+    width: 100%;
+    margin-top: 35px;
+}
+.top-section{
+    background-image: url(../img//top-banner.png);
+    background-repeat: no-repeat;
+   
+}
+.top-section .link-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, #ff408b, #6058dc);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 70;
+    transition: all 0.5s ease;
+}
+.top-section .link-button:hover{
+    background:#FF3D89 ;
+    font-size: 19px;
+    padding: 13px 43px;
+}
